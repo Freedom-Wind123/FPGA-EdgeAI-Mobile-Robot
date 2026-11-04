@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project>
+  <Template>FPGA</Template>
+  <Version>5</Version>
+  <Device name="GW5AT-60B" pn="GW5AT-LV60PG484AC1/I0">gw5at60b-002</Device>
+  <FileList>
+    <File path="../baseline/rtl/video_halfcycle_data.sv" type="file.verilog" enable="1" />
+    <File path="../baseline/rtl/osd_angles_deg.sv" type="file.verilog" enable="1" />
+    <File path="../baseline/rtl/osd_wheels.sv" type="file.verilog" enable="1" />
+    <File path="../baseline/rtl/osd_telemetry_rx.sv" type="file.verilog" enable="1" />
+    <File path="../baseline/rtl/osd_observer.sv" type="file.verilog" enable="1" />
+    <File path="../baseline/rtl/osd_snapshot_cdc.sv" type="file.verilog" enable="1" />
+    <File path="../baseline/rtl/host_uart_route.sv" type="file.verilog" enable="1" />
+    <File path="../baseline/rtl/serdes_4b_10to1_hw.sv" type="file.verilog" enable="1" />
+    <File path="../baseline/src/ov5640_ddr3_hdmi.v" type="file.verilog" enable="1" />
+    <File path="../baseline/rtl/reset_release.sv" type="file.verilog" enable="1" />
+    <File path="../baseline/rtl/camera_setup.sv" type="file.verilog" enable="1" />
+    <File path="../baseline/rtl/sccb_master.sv" type="file.verilog" enable="1" />
+    <File path="../baseline/rtl/video_select.sv" type="file.verilog" enable="1" />
+    <File path="../baseline/src/camera_init/ov5640_init_table_rgb.v" type="file.verilog" enable="1" />
+    <File path="../baseline/src/DVP_Capture/DVP_Capture.v" type="file.verilog" enable="1" />
+    <File path="../baseline/src/camera_pll/camera_pll.v" type="file.verilog" enable="1" />
+    <File path="../baseline/src/camera_pll/camera_pll_mod.v" type="file.verilog" enable="1" />
+    <File path="../baseline/src/ddr_pll/ddr_pll.v" type="file.verilog" enable="1" />
+    <File path="../baseline/src/ddr_pll/ddr_pll_mod.v" type="file.verilog" enable="1" />
+    <File path="../baseline/src/pll_init.v" type="file.verilog" enable="1" />
+    <File path="../baseline/src/pll_mDRP_intf.v" type="file.verilog" enable="1" />
+    <File path="../baseline/src/ddr3_ctrl_2port/ddr3_ctrl_2port.v" type="file.verilog" enable="1" />
+    <File path="../baseline/src/ddr3_ctrl_2port/fifo_ddr3_adapter.v" type="file.verilog" enable="1" />
+    <File path="../baseline/src/ddr3_memory_interface/ddr3_memory_interface.v" type="file.verilog" enable="1" />
+    <File path="../baseline/src/rd_data_fifo/rd_data_fifo.v" type="file.verilog" enable="1" />
+    <File path="../baseline/src/wr_data_fifo/wr_data_fifo.v" type="file.verilog" enable="1" />
+    <File path="../baseline/src/vga/disp_driver.v" type="file.verilog" enable="1" />
+    <File path="../baseline/src/vga/disp_parameter_cfg.v" type="file.verilog" enable="1" />
+    <File path="../baseline/src/vga/dvi_encoder.v" type="file.verilog" enable="1" />
+    <File path="../baseline/src/gowin_ddr/gowin_ddr.v" type="file.verilog" enable="1" />
+    <File path="../baseline/chassis/rtl/button_filter.sv" type="file.verilog" enable="1" />
+    <File path="../baseline/chassis/rtl/tick_gen.sv" type="file.verilog" enable="1" />
+    <File path="../baseline/chassis/rtl/uart_rx.sv" type="file.verilog" enable="1" />
+    <File path="../baseline/chassis/rtl/uart_tx.sv" type="file.verilog" enable="1" />
+    <File path="../baseline/chassis/rtl/ros_command_parser.sv" type="file.verilog" enable="1" />
+    <File path="../baseline/chassis/rtl/key_controller.sv" type="file.verilog" enable="1" />
+    <File path="../baseline/chassis/rtl/quad_decoder.sv" type="file.verilog" enable="1" />
+    <File path="../baseline/chassis/rtl/wheel_pid.sv" type="file.verilog" enable="1" />
+    <File path="../baseline/chassis/rtl/chassis_controller.sv" type="file.verilog" enable="1" />
+    <File path="../baseline/chassis/rtl/motor_pwm.sv" type="file.verilog" enable="1" />
+    <File path="../baseline/chassis/rtl/imu_parser.sv" type="file.verilog" enable="1" />
+    <File path="../baseline/chassis/rtl/imu_zero_tx.sv" type="file.verilog" enable="1" />
+    <File path="../baseline/chassis/rtl/cordic_sincos.sv" type="file.verilog" enable="1" />
+    <File path="../baseline/chassis/rtl/odometry.sv" type="file.verilog" enable="1" />
+    <File path="../baseline/constraints/video_60k.gsc" type="file.gsc" enable="1" />
+    <File path="rtl/autonomy_chassis_top.sv" type="file.verilog" enable="1" /><File path="rtl/c1_scan_parser.sv" type="file.verilog" enable="1" /><File path="rtl/c1_sectors.sv" type="file.verilog" enable="1" /><File path="rtl/c1_uart.sv" type="file.verilog" enable="1" /><File path="rtl/grid_bfs.sv" type="file.verilog" enable="1" /><File path="rtl/grid_map.sv" type="file.verilog" enable="1" /><File path="rtl/mission_control.sv" type="file.verilog" enable="1" /><File path="rtl/mission_rx.sv" type="file.verilog" enable="1" /><File path="rtl/motion_guard.sv" type="file.verilog" enable="1" /><File path="rtl/osd_overlay.sv" type="file.verilog" enable="1" /><File path="rtl/robot_autonomy_core.sv" type="file.verilog" enable="1" /><File path="rtl/robot_board_top.sv" type="file.verilog" enable="1" /><File path="rtl/scan_projector.sv" type="file.verilog" enable="1" /><File path="rtl/sync_ram.sv" type="file.verilog" enable="1" /><File path="rtl/target_goal.sv" type="file.verilog" enable="1" /><File path="rtl/telemetry_formatter.sv" type="file.verilog" enable="1" /><File path="rtl/waypoint_servo.sv" type="file.verilog" enable="1" /><File path="constraints/robot.cst" type="file.cst" enable="1" /><File path="constraints/robot.sdc" type="file.sdc" enable="1" /></FileList>
+</Project>

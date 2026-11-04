@@ -1,0 +1,38 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# ---- 仿真与测试产物 ----
+evidence/
+*.vvp
+*.vcd
+*.fst
+*.wlf
+
+# ---- Gowin 综合/布局布线产物 ----
+impl/
+*.pnr
+*.bit
+*.fs
+*.sbit
+*.rpt
+*.log
+# IP 生成的行为级网表，可由 IP 重新生成
+*.vo
+
+# ---- C/C++ 构建 ----
+build/
+cmake-build-*/
+
+# ---- 编辑器与系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.bak
+*.user
+*~
